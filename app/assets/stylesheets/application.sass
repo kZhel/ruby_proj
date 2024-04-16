@@ -10,17 +10,89 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_self
- *= require font-awesome
- *= require_tree .
-
  */
+@import "bootstrap";
+@import "font-awesome";
+
+html,body 
+    height: 100%;
+    width: 100%;
+    background: #eeebeb;
 
 a
-    color: black;
+   color: black;
+   text-decoration: none;
 
 a:hover
-    color: darkred;
+   color: #520505;
 
-h1
-    color: darkred;
+ul
+    list-style-type:  none;
+
+.header
+   background: #eeebeb;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   height: 10%
+   box-shadow: 0px 5px 10px darkgray;
+
+.header h1
+    color: #520505;
+
+.title
+    height: 100%
+
+.nav
+    height: 100%;
+
+.nav ul
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+    width: 100%
+
+.nav ul li 
+    margin-left: 5%;
+    
+.image
+    height: 85%;
+    width: 100%;
+
+.row
+    --bs-gutter-x: 0;
+    height: 100%;
+
+.left_controls, .img-left-side, .img-right-side
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+.image_display
+    height: 100%;
+    text-align: center;
+
+.img_cont
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+
+.img_cont .text
+    height: 10%;
+
+.img_cont .img
+    height: 60%;
+
+.footer
+    text-align: center;
+    background: #eeebeb;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    box-shadow: 0px -3px 10px darkgray;
+

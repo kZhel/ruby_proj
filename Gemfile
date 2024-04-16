@@ -10,7 +10,7 @@ gem "rails", "~> 7.0.8", ">= 7.0.8.1"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+#gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -33,17 +33,27 @@ gem "html2haml"
 
 gem 'flash'
 
-gem 'jquery-ui-rails'
-gem 'rails-asset-jqueryui'
+# gem 'jquery-ui-rails'
+# gem 'rails-asset-jqueryui'
 
 gem 'sass-rails'
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
 
 gem 'font-awesome-sass' 
 gem 'font-awesome-rails'
 
 gem 'will_paginate'
 gem 'kaminari'
+
+gem 'pg'
+gem 'activerecord-reset-pk-sequence'
+
+gem 'bcrypt'
+gem 'active_model_serializers'
+
+gem 'bootstrap', '~> 5.3.2'
+gem 'jquery-rails'
+gem 'mini_racer'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
